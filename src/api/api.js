@@ -50,8 +50,8 @@ const request = {
 
 
     const Splinterlands = {
-        getPlayerBalance    : (username) => request.get(`https://api.splinterlands.io/players/balances?username=${username}`),
-        getPlayerSettings   : (username) => request.get(`https://api.splinterlands.io/players/details?name=${username}`),
+        getPlayerBalance    : (username) => request.get(`https://game-api.splinterlands.com/players/balances?username=${username}`),
+        getPlayerSettings   : (username) => request.get(`https://game-api.splinterlands.com/players/details?name=${username}`),
     }
     const API = {
         Price,
